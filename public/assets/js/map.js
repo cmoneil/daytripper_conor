@@ -9,7 +9,7 @@ var map;
 $.ajax({
     type: "GET",
     //url: 'https://app.ticketmaster.com/discovery/v2/events.json?apikey=LsnXngGMPvh119GAmqLkACcXZfGcJQ3g&latlong=44.9837029,-93.1801801&radius=1000',
-    url: 'https://app.ticketmaster.com/discovery/v2/events.json?apikey=LsnXngGMPvh119GAmqLkACcXZfGcJQ3g&postalCode=55415&startDateTime=2018-04-28T13:31:00Z&endDateTime=2018-04-30T13:31:00Z&countryCode=US',
+    url: '/api/https://app.ticketmaster.com/discovery/v2/events.json?apikey=LsnXngGMPvh119GAmqLkACcXZfGcJQ3g&postalCode=55415&startDateTime=2018-04-28T13:31:00Z&endDateTime=2018-04-30T13:31:00Z&countryCode=US',
     async: true,
     dataType: "JSON",
     success: function (json) {

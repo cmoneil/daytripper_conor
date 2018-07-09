@@ -1,0 +1,25 @@
+{
+  "name": "daytripper_conor",
+  "version": "1.0.0",
+  "description": "--- ##### UMN group homework #1 ---",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmoneil/daytripper_conor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmoneil/daytripper_conor/issues"
+  },
+  "homepage": "https://github.com/cmoneil/daytripper_conor#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "npm": "^6.1.0",
+    "request": "^2.87.0"
+  }
+}
