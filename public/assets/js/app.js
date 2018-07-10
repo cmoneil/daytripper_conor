@@ -83,9 +83,9 @@ $("#searchForm").on("submit", function (event) {
 
     $("#location2,#budget,#timeToWaste").val("");
 
-    var queryURL = 'api/https://app.ticketmaster.com/discovery/v2/events.json?apikey=LsnXngGMPvh119GAmqLkACcXZfGcJQ3g';
+    var queryURL = 'https://app.ticketmaster.com/discovery/v2/events.json?apikey=LsnXngGMPvh119GAmqLkACcXZfGcJQ3g';
 
-    var queryURL2 = "api/https://maps.googleapis.com/maps/api/place/textsearch/json?query=restaurants+in+" + location2 + "&key=AIzaSyDOfs17E2EBQGVcjAQQQO1-vtMh3BEULg8";
+    var queryURL2 = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=restaurants+in+" + location2 + "&key=AIzaSyDOfs17E2EBQGVcjAQQQO1-vtMh3BEULg8";
 
     //var queryURL2 = "https://api.yelp.com/v3/businesses/search?term=restaurants&"
 
