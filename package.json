@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/cmoneil/daytripper_conor#readme",
   "dependencies": {
+    "cors-anywhere": "^0.4.1",
     "express": "^4.16.3",
     "npm": "^6.1.0",
     "request": "^2.87.0"
